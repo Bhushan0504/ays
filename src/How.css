@@ -1,0 +1,45 @@
+.how{
+  font-size: 32px;
+  padding: 10px;
+}
+.howcard{
+  font-size: 28px;
+  padding: 10px;
+  margin: 10px;
+}
+.leftborder{
+  border-left: 1px solid lightgrey;
+}
+.howcarddetails{
+  font-size: 18px;
+}
+.howcircle{
+  width: 15%;
+  height: auto;
+  border-radius: 40px;
+  border: 3px solid grey;
+  margin-bottom: 10px;
+}
+.arrow{
+  float: right;
+  width: 8%;
+  height: auto;
+}
+@media (min-width:768px){
+  .arrowmob{
+    display: none;
+  }
+}
+
+@media (max-width:768px){
+  .arrow{
+    display: none;
+  }
+  .arrowmob{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10%;
+    height: auto;
+    transform: rotate(90deg);
+  }
+}

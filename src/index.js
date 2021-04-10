@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './Nav';
 import Midimg from './Midimg';
+import How from './How';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,4 +16,11 @@ ReactDOM.render(
     <Midimg />
   </React.StrictMode>,
   document.getElementById('midimg')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <How />
+  </React.StrictMode>,
+  document.getElementById('how')
 );
