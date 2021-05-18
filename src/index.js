@@ -1,26 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './Nav';
-import Midimg from './Midimg';
-import How from './How';
+import Home from './Home';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Nav />
-  </React.StrictMode>,
-  document.getElementById('nav')
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Nav />
+//   </React.StrictMode>,
+//   document.getElementById('nav')
+// );
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Midimg />
-  </React.StrictMode>,
-  document.getElementById('midimg')
-);
-
-ReactDOM.render(
-  <React.StrictMode>
-    <How />
-  </React.StrictMode>,
-  document.getElementById('how')
-);
+ReactDOM.render(<React.StrictMode>
+  <Home />
+</React.StrictMode>, document.getElementById('home'));

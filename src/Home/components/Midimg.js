@@ -1,4 +1,4 @@
-import './Midimg.css';
+import '../css/Midimg.css';
 
 function Midimg() {
   return (
