@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Nav from './Nav';
 import Home from './Home';
 
 // ReactDOM.render(

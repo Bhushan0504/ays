@@ -45,6 +45,14 @@ class Home extends React.Component {
         <Nav />
         <Midimg />
         <How />
+        <br/>
+        What we offer
+        <br/><br/>
+        Why use AYS
+        <br/><br/>
+        Trusted and Safe
+        <br/><br/>
+        Footer
       </div>
     )
   }

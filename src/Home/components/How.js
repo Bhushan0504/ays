@@ -11,6 +11,7 @@ function How() {
           <img src='img/search.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrow' />
+          <br/>
           Search
           <br/>
           <br/>
@@ -24,6 +25,7 @@ function How() {
           <img src='img/contact.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrow' />
+          <br/>
           Contact
           <br/><br/>
             <div class='howcarddetails'>
@@ -36,6 +38,7 @@ function How() {
           <img src='img/employed.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrowmob arrow' />
+          <br/>
           Employed
           <br/><br/>
             <div class='howcarddetails'>

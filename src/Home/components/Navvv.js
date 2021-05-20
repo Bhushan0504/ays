@@ -27,6 +27,10 @@ class Nav extends React.Component {
        })();
    }
 
+   topgo = () => {
+     window.scrollTo(0, 0);
+   }
+
    //Triggering login for google
    googleLogin = () => {
        let response = null;
@@ -86,6 +90,7 @@ class Nav extends React.Component {
 
 
     const cross = () => {
+      this.topgo();
       this.setState({showContact:false})
       this.setState({showNeedjob:false})
       this.setState({showLogin:false})
@@ -94,6 +99,7 @@ class Nav extends React.Component {
     }
 
     const login = () => {
+      this.topgo();
       this.setState({showContact:false})
       this.setState({showNeedjob:false})
       this.setState({showLogin:true})
@@ -102,6 +108,7 @@ class Nav extends React.Component {
     }
 
     const signup = () => {
+      this.topgo();
       this.setState({showContact:false})
       this.setState({showNeedjob:false})
       this.setState({showLogin:false})
@@ -110,6 +117,7 @@ class Nav extends React.Component {
     }
 
     const contact = () => {
+      this.topgo();
       this.setState({showContact:true})
       this.setState({showNeedjob:false})
       this.setState({showLogin:false})
@@ -118,6 +126,7 @@ class Nav extends React.Component {
     }
 
     const needjob = () => {
+      this.topgo();
       this.setState({showContact:false})
       this.setState({showNeedjob:true})
       this.setState({showLogin:false})
@@ -127,7 +136,7 @@ class Nav extends React.Component {
 
     const Contact = () => {
       return (
-        <div><br/><br/><br/><br/><br/><br/>
+        <div class='blackbg'><br/><br/><br/><br/><br/><br/>
         <div class='navlogin'>
         <img src='img/cross.png' alt='x' class='cross' onClick={cross} />
         <div class='row'>
@@ -150,14 +159,16 @@ class Nav extends React.Component {
           Whatsapp at +91-8878668537
           </div>
         </div>
-        </div></div>
+        </div>
+        <br/><br/>
+        </div>
       )
     }
 
     const NavLogin = () => {
 
       return (
-        <div><br/><br/><br/><br/><br/><br/>
+        <div class='blackbg' ><br/><br/><br/><br/><br/><br/>
         <div class='navlogin'>
           Login
           <img src='img/cross.png' alt='x' class='cross' onClick={cross} />
@@ -191,13 +202,15 @@ class Nav extends React.Component {
               <span class='loginlinksignup' onClick={signup}>Sign Up</span>
             </div>
           </div>
-        </div></div>
+        </div>
+        <br/>
+        </div>
       )
     }
 
     const Signup = () => {
       return (
-        <div><br/><br/><br/><br/><br/><br/>
+        <div class='blackbg' ><br/><br/><br/><br/><br/><br/>
         <div class='navlogin'>
         AYS | at your service
           <img src='img/cross.png' alt='x' class='cross' onClick={cross} />
@@ -238,6 +251,7 @@ class Nav extends React.Component {
           </div>
           </form>
         </div>
+        <br/>
         </div>
       )
     }
@@ -251,17 +265,19 @@ class Nav extends React.Component {
                 </td><td> &nbsp;&nbsp;&nbsp; </td><td>
                   At Your <br/>Service</td></tr></table>
             </td>
-            <td class='right'><div class='row'><div class='col-sm-3'></div>
-                <div class='col-sm-3'>
-                  <span class='navmenu' onClick={contact}>Contact Us</span>
-                </div>
-                <div class='col-sm-3'>
-                  <span class='navmenu'>Apply here</span>
-                </div>
-                <div class='col-sm-3'>
-                  <span class='navmenu' onClick={login}>Login / Sign Up</span>
-                </div>
-              </div>
+            <td class='right'>
+                <span class='navmenutxt' onClick={contact}>
+                  <img src='img/nav/contactnav.png' alt='call' class='navimage' />
+                  <span class='navmenutxthide'>Contact Us</span>
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class='navmenutxt' alt='apply'>
+                  <img src='img/nav/applynav.png' class='navimage' />
+                  <span class='navmenutxthide'>Apply here</span>
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class='navmenutxt' onClick={login}>
+                  <img src='img/nav/signinnav.png'  alt='signin' class='navimage' />
+                  <span class='navmenutxthide' >Sign in</span>
+                </span>
             </td>
           </tr>
         </table>
