@@ -47,29 +47,38 @@
 .tagcategory{
   font-size: 24px;
   padding: 30px;
+  margin: 20px;
   background-color: white;
   color: black;
   border-radius: 10px;
   width: 400px;
 }
-
+.tagcategory:active{
+  decoration: none;
+}
+.tagcategory:focus{
+  decoration: none;
+  border: 0px;
+}
 @media (max-width:768px){
   .halfshadow{
     /* color: white; */
     background: linear-gradient(180deg,transparent,#000 95%);
-    height: 310px;
-    width: 710px;
-  }
-  .blackbg{
-    background-color: black;
-    color: white;
+    height: 300px;
+    width: 100%;
   }
   .bgimg
   {
     background-position: center;
+    background-color: white;
     background-image: url('http://localhost:3000/midimg1.png');
-    width: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 300px;
+  }
+  .blackbg{
+    background-color: black;
+    color: white;
   }
   .reverse{
     flex-flow: column-reverse;
@@ -79,5 +88,9 @@
   .tagcontent{
     padding: 40px;
     font-size: 30px;
+  }
+  .tagcategory{
+    width: 250px;
+    font-size: 18px;
   }
 }

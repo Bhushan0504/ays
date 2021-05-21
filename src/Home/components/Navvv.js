@@ -265,19 +265,22 @@ class Nav extends React.Component {
                 </td><td> &nbsp;&nbsp;&nbsp; </td><td>
                   At Your <br/>Service</td></tr></table>
             </td>
-            <td class='right'>
+            <td class='right'><table class='fright'><tr><td>
                 <span class='navmenutxt' onClick={contact}>
+                  <img src='img/nav/width768/contactnav.png' alt='call' class='navimagewidth768' />
                   <img src='img/nav/contactnav.png' alt='call' class='navimage' />
                   <span class='navmenutxthide'>Contact Us</span>
-                </span> &nbsp;&nbsp;&nbsp;&nbsp;
+                </span></td><td>
                 <span class='navmenutxt' alt='apply'>
+                  <img src='img/nav/width768/applynav.png' alt='call' class='navimagewidth768' />
                   <img src='img/nav/applynav.png' class='navimage' />
                   <span class='navmenutxthide'>Apply here</span>
-                </span> &nbsp;&nbsp;&nbsp;&nbsp;
+                </span></td><td>
                 <span class='navmenutxt' onClick={login}>
+                  <img src='img/nav/width768/signinnav.png' alt='call' class='navimagewidth768' />
                   <img src='img/nav/signinnav.png'  alt='signin' class='navimage' />
                   <span class='navmenutxthide' >Sign in</span>
-                </span>
+                </span></td></tr></table>
             </td>
           </tr>
         </table>

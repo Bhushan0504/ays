@@ -3,6 +3,10 @@ import './css/Nav.css';
 import Midimg from './components/Midimg';
 import How from './components/How';
 import Nav from './components/Navvv';
+import Weoffer from './components/Weoffer';
+import Whyays from './components/Whyays';
+import Trust from './components/Trust';
+import Footer from './components/Footer';
 
 class Home extends React.Component {
   constructor()
@@ -45,14 +49,10 @@ class Home extends React.Component {
         <Nav />
         <Midimg />
         <How />
-        <br/>
-        What we offer
-        <br/><br/>
-        Why use AYS
-        <br/><br/>
-        Trusted and Safe
-        <br/><br/>
-        Footer
+        <Weoffer />
+        <Whyays/>
+        <Trust />
+        <Footer />
       </div>
     )
   }

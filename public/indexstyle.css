@@ -6,4 +6,9 @@
 body{
   overflow-x: hidden;
   color: black;
+  background-image: url("http://localhost:3000/img/bodybg/home/weoffer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
