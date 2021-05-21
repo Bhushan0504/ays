@@ -6,7 +6,7 @@ function Midimg() {
       <div class='midimgcss blackbg'>
       <br/><br/><br/>
         <div class='row reverse'>
-          <div class='col-sm-5'>
+          <div class='col-sm-5 blackbg'>
             <br/><br/>
             <span class='tagname'>
               AT YOUR SERVICE

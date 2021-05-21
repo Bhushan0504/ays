@@ -1,0 +1,40 @@
+.trusttag1{
+  font-size: 32px;
+  font-family: sans-serif;
+  text-align: right;
+  padding: 40px;
+  background-color: white;
+  color: black;
+  margin: 0px;
+}
+
+.whitebg{
+  background-color: #fff;
+  color: #000;
+}
+
+.imgtrust{
+  width: 30%;
+  height: auto;
+  margin: 30px;
+  margin-top: 0px;
+  float: top;
+}
+.point1{
+  margin-top: 20px;
+}
+
+.point{
+  width: 80%;
+  font-size: 28px;
+}
+.trtrust{
+  padding: 15px;
+  margin: 20px;
+}
+.tick{
+  margin: 20px;
+  margin-top: 0px;
+  width: 30px;
+  height: auto;
+}

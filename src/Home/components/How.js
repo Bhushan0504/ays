@@ -4,7 +4,7 @@ function How() {
   return (
     <div className='How'>
       <div class='how'>
-        How does it work?
+        <p class='trusttag1'>How Does it work ?</p>
         <div class='row howcard'>
           <div class='col-sm-4'>
           <br/>
@@ -42,7 +42,7 @@ function How() {
           Employed
           <br/><br/>
             <div class='howcarddetails'>
-              Select the service providing employee and
+              According to your deal the employee is employed at your site.
             </div>
           </div>
         </div>

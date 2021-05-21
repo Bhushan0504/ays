@@ -1,0 +1,77 @@
+.footer{
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+.footerstyle{
+  background-color: black;
+  color: white;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: left;
+}
+.footerstyle:hover{
+  text-decoration: none;
+  color: white;
+}
+.image{
+  pointer-events: none;
+  margin-left: 20px;
+}
+.links{
+  margin-left: 20px;
+  padding: 10px;
+}
+.footerlabel{
+  font-size: 22px;
+}
+.height200{
+  height: 200px;
+}
+.height100{
+  height: 100px;
+}
+
+.input-search{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 0px;
+	border: 0px solid;
+	background-color: #DFE6e6;
+	color: #000000;
+	outline: none;
+}
+.input-search-button{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 0px;
+	border: 0px solid;
+	background-color: #2AA9D8;
+	color: #ffffff;
+	text-allcaps: true;
+	outline: none;
+}
+.input-search-button:hover{
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 3px 6px 0 rgba(255, 255, 255, 1), 0 6px 20px 0 rgba(255, 255, 255, 1);
+}
+.input-search-table1{
+	width: 100%;
+}
+.input-search-table2{
+	width: 100%;
+}
+.input-search-table2-td{
+	align-items: right;
+	gravity: right;
+	padding: 10px;
+}
+.tab-width-100{
+	float: right;
+	font-size: 15px;
+}
+.tab-width-100:hover{
+	cursor: pointer;
+}
