@@ -1,4 +1,36 @@
-import './Nav.css';
+///////////////// nav //////////////////
+<div class='navbar'>
+  <table class='navtable'><tr><td class='left'><table class='navlogotext'><tr><td>
+            <img src='img/logo1.png' alt='AYS' class='navlogo'/>
+          </td><td> &nbsp;&nbsp;&nbsp; </td><td>
+            At Your <br/>Service</td></tr></table>
+      </td>
+      <td class='right'><div class='row'><div class='col-sm-3'></div>
+          <div class='col-sm-3'>
+            <span class='navmenu' onClick={contact}>Contact Us</span>
+          </div>
+          <div class='col-sm-3'>
+            <span class='navmenu'>Apply here</span>
+          </div>
+          <div class='col-sm-3'>
+            <span class='navmenu' onClick={login}>Login / Sign Up</span>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+{ showLogin ? <NavLogin /> : null }
+{ showContact ? <Contact /> : null }
+{ showSignup ? <Signup /> : null }
+
+///////////////// nav //////////////////
+
+
+
+The complete Nav.js hooks
+
+import './css/Nav.css';
 import React from 'react';
 
 function Nav() {
@@ -161,37 +193,20 @@ function Nav() {
 
   return (
     <div className="Nav">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <div class='navbar'>
-        <table class='navtable'>
-          <tr>
-            <td class='left'>
-              <table class='navlogotext'>
-              <tr>
-                <td>
+        <table class='navtable'><tr><td class='left'><table class='navlogotext'><tr><td>
                   <img src='img/logo1.png' alt='AYS' class='navlogo'/>
-                </td>
-                <td> &nbsp;&nbsp;&nbsp; </td>
-                <td>
-                  At Your <br/>
-                  Service
-                </td>
-              </tr>
-              </table>
+                </td><td> &nbsp;&nbsp;&nbsp; </td><td>
+                  At Your <br/>Service</td></tr></table>
             </td>
-            <td class='center'>
-            </td>
-            <td class='right'>
-              <div class='row'>
-                <div class='col-sm-4'>
+            <td class='right'><div class='row'><div class='col-sm-3'></div>
+                <div class='col-sm-3'>
                   <span class='navmenu' onClick={contact}>Contact Us</span>
                 </div>
-                <div class='col-sm-4'>
-                  <span class='navmenu'>Need a Job?</span>
+                <div class='col-sm-3'>
+                  <span class='navmenu'>Apply here</span>
                 </div>
-                <div class='col-sm-4'>
+                <div class='col-sm-3'>
                   <span class='navmenu' onClick={login}>Login / Sign Up</span>
                 </div>
               </div>

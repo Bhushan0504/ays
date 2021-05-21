@@ -1,4 +1,4 @@
-import './How.css';
+import '../css/How.css';
 
 function How() {
   return (
@@ -7,6 +7,7 @@ function How() {
         How does it work?
         <div class='row howcard'>
           <div class='col-sm-4'>
+          <br/>
           <img src='img/search.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrow' />
@@ -20,6 +21,7 @@ function How() {
             <img src='img/rightarrow.png' alt='search' class='arrowmob' />
           </div>
           <div class='col-sm-4'>
+          <br/>
           <img src='img/contact.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrow' />
@@ -32,6 +34,7 @@ function How() {
             <img src='img/rightarrow.png' alt='search' class='arrowmob' />
           </div>
           <div class='col-sm-4'>
+          <br/>
           <img src='img/employed.png' alt='search' class='howcircle' />
           <br/>
           <img src='img/rightarrow.png' alt='search' class='arrowmob arrow' />
@@ -39,7 +42,7 @@ function How() {
           Employed
           <br/><br/>
             <div class='howcarddetails'>
-
+              Select the service providing employee and
             </div>
           </div>
         </div>

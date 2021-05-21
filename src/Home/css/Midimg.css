@@ -1,0 +1,83 @@
+.midimgcss{
+  width: 100%;
+  /* background-color: black; */
+}
+.midimgcss2{
+  width: 100%;
+}
+
+.bgimg
+{
+  padding-left: 0px;
+  background-image: url('http://localhost:3000/midimg.jpg');
+  /* width: 600px;
+  height: 600px; */
+}
+
+.halfshadow{
+  /* color: white; */
+  float: left;
+  display : inline-block;
+  width : 70%;
+  height : 600px;
+  background: linear-gradient(270deg,transparent,#000 95%);
+  text-align : right;
+  position : relative;
+}
+
+.blackbg{
+  background-color: black;
+  color: white;
+}
+.tagname{
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 22px;
+  padding: 10px;
+  margin: 10px;
+}
+.tagcontent{
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: left;
+  padding: 50px;
+  padding-left: 80px;
+}
+.tagcategory{
+  font-size: 24px;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  width: 400px;
+}
+
+@media (max-width:768px){
+  .halfshadow{
+    /* color: white; */
+    background: linear-gradient(180deg,transparent,#000 95%);
+    height: 310px;
+    width: 710px;
+  }
+  .blackbg{
+    background-color: black;
+    color: white;
+  }
+  .bgimg
+  {
+    background-position: center;
+    background-image: url('http://localhost:3000/midimg1.png');
+    width: 700px;
+    height: 300px;
+  }
+  .reverse{
+    flex-flow: column-reverse;
+    display: flex;
+    align-items: center;
+  }
+  .tagcontent{
+    padding: 40px;
+    font-size: 30px;
+  }
+}

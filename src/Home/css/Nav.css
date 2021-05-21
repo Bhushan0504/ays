@@ -5,6 +5,8 @@
   width: 100%;
   font-size: 24px;
   border-radius: 0px;
+  position: fixed;
+  z-index: 1;
 }
 .left{
   text-align: left;
@@ -14,13 +16,13 @@
 }
 .right{
   font-size: 18px;
-  text-align: center;
+  text-align: right;
   width: 55%;
 }
 .navtable{
   width: 90%;
 }
-.navmenu:hover{
+.navmenutxt:hover{
   color: white;
   text-decoration: underline;
   cursor: pointer;
@@ -42,7 +44,8 @@
   padding: 10px;
   font-size: 22px;
   color: black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 1), 0 6px 20px 0 rgba(255, 255, 255, 1);
 }
 .labellogin{
   font-size: 12px;
@@ -94,12 +97,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .logingoogle{
-  width: 80%;
+  width: 300px;
   height: auto;
   border-radius: 5px;
 }
 .logingoogle:hover{
-  width: 80%;
+  width: 301px;
   height: auto;
   border-radius: 5px;
   cursor: pointer;
@@ -128,12 +131,19 @@
 	padding: 10px;
 	border-radius: 2px;
 }
-
+.navimage{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
 
 @media (max-width:768px){
-  .navmenu{
+  .navmenutxt{
     text-align: right;
     width: 100%;
+  }
+  .navmenutxthide{
+    display: none;
   }
   .right{
     font-size: 16px;
